@@ -5,8 +5,9 @@ import { useContext } from "react";
 import { CoffeContext } from "../../contexts/CoffeContext";
 
 // import LogoCoffe from '../../assets/LogoCoffe.svg'
-import LogoCoffe from '../../assets/LogoCoffe2.jpg'
+// import LogoCoffe from '../../assets/LogoCoffe2.jpg';
 
+import LogoCoffe from '../../assets/LogoCoffe2.jpg'
 
 
 export function Header() {
