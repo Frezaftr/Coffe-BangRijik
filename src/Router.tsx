@@ -4,14 +4,13 @@ import { DefaultLayout } from './layouts/DefaultLayout'
 import { Cart } from './pages/Cart'
 import { Order } from './pages/Order'
 
-
 export function Router() {
   return (
     <Routes>
-      <Route path="/Coffee_delivery/" element={<DefaultLayout />}>
-        <Route path="/Coffee_delivery/" element={<Home />} />
-        <Route path="/Coffee_delivery/cart" element={<Cart/>} />
-        <Route path="/Coffee_delivery/order" element={<Order/>}/>
+      <Route path="/Coffee_BangRijik/" element={<DefaultLayout />}>
+        <Route path="/Coffee_BangRijik/" element={<Home />} />
+        <Route path="/Coffee_BangRijik/cart" element={<Cart />} />
+        <Route path="/Coffee_BangRijik/order" element={<Order />} />
       </Route>
     </Routes>
   )
